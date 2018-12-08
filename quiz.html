@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>Summative English Website </title>
+  <link href="quiz.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+  <script src = "main.js"></script>
+
+</head>
+<body>
+
+  <div class="header">
+    <h1>Identifying Fake News</h1>
+    <h2>Understanding the Dangers of Fake News</h2>
+    <img class="logo" src="logo.png">
+    <img class="logo1" src="logo1.png">
+  </div>
+
+<div class="row">
+
+    <div class="column side">
+    </div>
+
+    <div class="column middle">
+      <center>
+        <ul>
+          <li><a href="index.html">Home Page</a></li>
+          <li><a href="what.html">What is Fake News?</a></li>
+          <li><a href="why.html">Why is it Important to Identify Fake News?</a></li>
+          <li><a href="steps.html">How to Identify Fake News</a></li>
+          <li><a class="active" href="quiz.html">Quiz</a></li>
+        </ul>
+      </center>
+      <h4>It's time for the Quiz</h4>
+      <h5>Now it's time to test your knowledge. Below is a true/false test that will ask whether or not a type of media is presenting you fake news. Click true if it is fake news
+        and false if it isn't. Click the submit button to submit your answers. A message will appear that will indicate your results. Good luck!</h5>
+    <div class="box">
+      <form id = "quiz" name = "quiz">
+
+
+      <h5 class = "questions">Is this news article fake news? <a href="https://www.independent.ie/style/celebrity/celebrity-news/kylie-jenner-blasts-prankster-behind-fake-cheating-picture-37600626.html">Article</a></h5>
+      <input type = "radio" id = "mc" name = "question1" value = "True"> True<br>
+      <input type = "radio" id = "mc" name = "question1" value = "False"> False<br>
+
+      <h5 class = "questions">Is this social media post fake news? <a href="https://twitter.com/Roshan_Rinaldi/status/1051001850974150656/photo/1?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1051001850974150656&ref_url=https%3A%2F%2Fwww.teenvogue.com%2Fstory%2Ffake-celebrity-news-stories-are-actually-voter-registration-links-social-media">Post</a></h5>
+      <input type = "radio" id = "mc" name = "question2" value = "True"> True<br>
+      <input type = "radio" id = "mc" name = "question2" value = "False"> False<br>
+
+      <h5 class = "questions">Is this news article fake news? <a href="https://www.usmagazine.com/celebrity-news/news/kevin-hart-steps-down-as-oscars-host-after-controversial-tweets/">Article</a></h5>
+      <input type = "radio" id = "mc" name = "question3" value = "True"> True<br>
+      <input type = "radio" id = "mc" name = "question3" value = "False"> False<br>
+
+      <h5 class = "questions">Is this social media post fake news? <a href="https://twitter.com/ladbible/status/1051813567304003586?lang=en">Post</a></h5>
+      <input type = "radio" id = "mc" name = "question4" value = "True"> True<br>
+      <input type = "radio" id = "mc" name = "question4" value = "False">False<br>
+
+      <h5 class = "questions">Is this news article fake news? <a href="https://ca.hellomagazine.com/celebrities/02018112648769/shawn-mendes-rolling-stone-hailey-baldwin/">Article</a></h5>
+      <input type = "radio" id = "mc" name = "question5" value = "True"> True<br>
+      <input type = "radio" id = "mc" name = "question5" value = "False"> False<br>
+
+
+      <input id = "button" type = "button" value = "Submit" onclick = "check();">
+
+
+      </form>
+    </div>
+
+      <div id = "after_submit">
+        <h5 id = "number_correct"></h5>
+        <h5 id = "message"></h5>
+        <img id = "picture">
+      </div>
+
+    </div>
+    <div class="column side">
+    </div>
+  </div>
+
+  <div class="footer">
+    <h3>Vineeth Balachandran</h3>
+    <h3>ENG 4UA</h3>
+  </blockquote>
+  </div>
+
+  </html>
+</body>
